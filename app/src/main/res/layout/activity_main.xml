@@ -229,7 +229,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sqrtButton1"
         tools:ignore="UnknownId" />
-
+    <Button
+        android:id="@+id/clear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="140dp"
+        android:text="demo"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clear"
+        tools:ignore="UnknownId" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
